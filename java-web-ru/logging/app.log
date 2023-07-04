@@ -1,0 +1,12 @@
+июл. 04, 2023 12:54:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8000"]
+июл. 04, 2023 12:54:24 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+июл. 04, 2023 12:54:24 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+июл. 04, 2023 12:54:24 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/8.5.69]
+июл. 04, 2023 12:54:25 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [243] milliseconds.
+июл. 04, 2023 12:54:26 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8000"]
