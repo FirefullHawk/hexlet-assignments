@@ -236,7 +236,6 @@ class AppTest {
     }
 
     // BEGIN
-    
     // END
 
     @AfterAll
