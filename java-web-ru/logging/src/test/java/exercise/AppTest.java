@@ -33,7 +33,7 @@ class AppTest {
     private static String hostname = "localhost";
     private static Tomcat app;
     private static String baseUrl;
-    private static String logFileName = "app.log.1";
+    private static String logFileName = "app.log";
 
     private static Path getAbsolutePath(String fileName) {
         return Paths.get(logFileName).toAbsolutePath().normalize();
