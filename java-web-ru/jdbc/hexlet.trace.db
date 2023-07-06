@@ -1,0 +1,140 @@
+2023-07-06 13:45:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ? OFFSET ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ? OFFSET ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? OFFSET ? [42001-200]
+2023-07-06 13:45:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ? OFFSET ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ? OFFSET ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? OFFSET ? [42001-200]
+2023-07-06 13:46:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:47:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:48:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; ожидалось "=, NOT, EXISTS, INTERSECTS, UNIQUE"
+Syntax error in SQL statement "SELECT ID, TITLE FROM ARTICLES ORDER BY ID, LIMIT[*] ?"; expected "=, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+SELECT id, title FROM articles ORDER BY id, LIMIT ? [42001-200]
+2023-07-06 13:55:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "null"
+Data conversion error converting "null"; SQL statement:
+SELECT body, title FROM articles WHERE id = 'null' [22018-200]
+2023-07-06 14:10:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:12:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:17:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:17:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:17:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:17:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:17:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:17:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:17:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
+2023-07-06 14:17:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-200]
