@@ -7,7 +7,6 @@ import exercise.model.User;
 import exercise.dto.users.UserPage;
 import exercise.dto.users.UsersPage;
 import java.util.Collections;
-import java.util.Objects;
 
 public final class App {
 
