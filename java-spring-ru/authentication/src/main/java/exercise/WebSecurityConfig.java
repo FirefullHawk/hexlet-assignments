@@ -21,10 +21,10 @@ public class WebSecurityConfig {
     // Переопределяет схему аутентификации
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         // BEGIN
-        http
-                .authorizeHttpRequests((authz) -> authz
+        http.csrf().disable()
+                .authorizeHttpRequests((request) -> request
                         .requestMatchers("/").permitAll()
-                        .requestMatchers(HttpMethod.POST).permitAll()
+                        .requestMatchers(HttpMethod.POST, "/users").permitAll()
                         .anyRequest().authenticated()
                 )
                 .httpBasic();

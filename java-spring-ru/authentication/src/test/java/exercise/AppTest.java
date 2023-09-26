@@ -79,38 +79,38 @@ public class AppTest {
         assertThat(response.getContentAsString()).contains("Alexis", "Johny_123");
     }
 
-//    @Test
-//    void testCreateUser() throws Exception {
-//        String content = "{\"username\": \"Petr_12\", \"email\": \"petrilo@yandex.ru\", \"password\": \"mypass\"}";
-//
-//        MockHttpServletResponse responsePost = mockMvc
-//            .perform(
-//                post("/users")
-//                    .contentType(MediaType.APPLICATION_JSON)
-//                    .content(content)
-//            )
-//            .andReturn()
-//            .getResponse();
-//
-//        assertThat(responsePost.getStatus()).isEqualTo(200);
-//
-//        // Проверяем, что пользователь добавился в базу данных
-//        User actualUser = userRepository.findByEmail("petrilo@yandex.ru").get();
-//        assertThat(actualUser).isNotNull();
-//        assertThat(actualUser.getUsername()).isEqualTo("Petr_12");
-//
-//        // Проверяем, что пароль хранится в базе в зашифрованном виде
-//        assertThat(actualUser.getPassword()).isNotEqualTo("mypass");
-//
-//        // Проверяем, что новый пользователь успешно проходит аутентификацию
-//        MockHttpServletResponse response = mockMvc
-//            .perform(
-//                get("/users")
-//                    .header("Authorization", "Basic UGV0cl8xMjpteXBhc3M=")
-//            )
-//            .andReturn()
-//            .getResponse();
-//
-//        assertThat(response.getStatus()).isEqualTo(200);
-//    }
+    @Test
+    void testCreateUser() throws Exception {
+        String content = "{\"username\": \"Petr_12\", \"email\": \"petrilo@yandex.ru\", \"password\": \"mypass\"}";
+
+        MockHttpServletResponse responsePost = mockMvc
+            .perform(
+                post("/users")
+                    .contentType(MediaType.APPLICATION_JSON)
+                    .content(content)
+            )
+            .andReturn()
+            .getResponse();
+
+        assertThat(responsePost.getStatus()).isEqualTo(200);
+
+        // Проверяем, что пользователь добавился в базу данных
+        User actualUser = userRepository.findByEmail("petrilo@yandex.ru").get();
+        assertThat(actualUser).isNotNull();
+        assertThat(actualUser.getUsername()).isEqualTo("Petr_12");
+
+        // Проверяем, что пароль хранится в базе в зашифрованном виде
+        assertThat(actualUser.getPassword()).isNotEqualTo("mypass");
+
+        // Проверяем, что новый пользователь успешно проходит аутентификацию
+        MockHttpServletResponse response = mockMvc
+            .perform(
+                get("/users")
+                    .header("Authorization", "Basic UGV0cl8xMjpteXBhc3M=")
+            )
+            .andReturn()
+            .getResponse();
+
+        assertThat(response.getStatus()).isEqualTo(200);
+    }
 }
